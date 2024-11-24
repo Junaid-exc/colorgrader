@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+body{
+    background-image: linear-gradient(to right, #3028d8, #920e78 );
+   
+   
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Poppins, sans-serif";
+    gap: 30px;
+  
+    
+   
+
+    
+}
+.button-area{
+  
+
+}
+button{
+    padding: 7px 28px;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.color-code{
+    background-color: rgba(158, 158, 158, 0.286);
+    border-left: 3px solid white;
+    height: 12vh;
+    width: 70vh;
+    text-align: left;
+    color: white;
+   
+  
+    
+}
+.code{
+    cursor: pointer;
+}
+p{
+    margin: 5px 10px;
+    color: white;
+}
+#btn{
+    background-color: #1d266d;
+    color: white;
+    box-shadow: #9c9c9c29 10px 10px;
+    transition: 0.5s ease;
+}
+#btn2{
+    background-color: rgb(235, 23, 200);
+    box-shadow: #9c9c9c29 10px 10px;
+    transition: 0.5s ease;
+    
+}
+#btn2:hover{
+    background-color: white;
+   
+}
+#btn:hover{
+    background-color: black;
+}
+#copy{
+    font-size: 14px;
+   font-weight: 100;
+   transition: 0.5s ease;
+}
+@media only screen and (max-width: 769px) {
+    .color-code{
+        width: 38vh;
+    }
+    #copy{
+       position: relative;
+       bottom: 20px;
+       left: 20vh;
+    }
+  }
+
+
